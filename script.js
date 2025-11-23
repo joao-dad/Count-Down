@@ -33,7 +33,7 @@ const contagemRegressiva = (tempo) => {
 }
 
 const tempoRestante = () =>{
-    const dataEvento = new Date ('2025-11-28T12:00:00');
+    const dataEvento = new Date ('2025-11-28T14:00:00');
     const hoje = Date.now()
     return Math.floor((dataEvento - hoje) / 1000)
 }
